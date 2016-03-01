@@ -3,4 +3,27 @@
 		padding: 0;
 		margin: 0 auto;
 	}
+	header .top-menu{
+		margin-right: 40px;
+			}
+	header .top-menu ul{
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+	header .top-menu li{
+		display: inline-block;
+		padding: 10px;
+		margin-right: 20px;
+	}
+	header .main-logo{
+		padding: 10px;
+		float: left;
+	}
+	header .small-logo{
+	}
+	.head-foto{
+		text-align: center;
+		border: 15px solid #fff;
+	} 
 }
