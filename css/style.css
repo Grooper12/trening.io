@@ -83,7 +83,6 @@
 	}
 	.middle-menu{
 				margin-top: 50px;
-				padding: 0;
 	}
 	.middle-menu ul{
 		list-style: none;
@@ -92,9 +91,10 @@
 		display: inline-block;
 		font-size: 24px;
 		margin-left: 30px;
-		padding: 10px;
+		padding: 10px 10px 20px 10px;
 	}
 	.middle-menu ul li:hover{
+		padding-bottom: 15px;
 		border-bottom: 2px solid #f9a17b;
 
 
@@ -106,42 +106,55 @@
 		color:#f2eee7;
 		text-decoration: none;
 	}
+	.content{
+		text-align: center;
+		max-width: 1180px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 	.content .video{
-		margin-left:40px;
 	}
 	.content .container{
 		background: #fff;
 		display: inline-block;
-		max-width: 230px;
-		max-height: 300px;
+		max-width: 240px;
+		max-height: 290px;
 		padding:0;
 	}
+	.content .container img{
+		max-width: 100%;
+	}
 	.content .container{
-		margin:40px 0px 20px 42px;
+		margin:0 0 30px 40px;
+	}
+	.content .container_1{
+		position: relative;
+		bottom: 10px;
 	}
 	.content .container_3{
-		margin-left: 
 	}
-	.content .container_5{
-		margin-right: 0;
-	}
-	.content .container_2{
-		margin-right: 0;
-		margin-left: 0;
+	.content .top-content{
+		margin-top: 20px;
+
 	}
 	.content p{
+		text-align: left;
 		color:#7f8bb7;
 		font-size: 12px;
 		margin:10px;
 	}
 	.content h4{
 		color: #303030;
+		position: relative;
+		bottom: 10px;
 		display: inline-block;
-		margin-left: 5px;
+		margin-left: 10px;
 		margin-right: 30px;
 	}
 	.content button{
 		background: #fe5900;
+		position: relative;
+		bottom: 10px;
 		border: none;
 		display: inline-block;
 		font-weight: bold;
@@ -149,5 +162,12 @@
 		padding:5px 15px 5px 15px;
 		border-radius: 5%;
 		color: #fff;
+	}
+	footer{
+		text-align: center;
+		margin-top: 120px;
+		background: #f2eeeb;
+		padding: 20px 0 10px 0;
+		color:#7f7f7f;
 	}
 }
